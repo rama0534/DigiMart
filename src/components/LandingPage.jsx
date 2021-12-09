@@ -11,12 +11,13 @@ import HeaderSection from './HeaderSection'
  
 export default function LandingPage() {
   return (
-    <div className="bg-white">
-      <HeaderSection />
+    <div className="bg-white"> 
+      <HeaderSection /> 
       <main>
         {/* Hero section */}
+        
         <div className="relative mt-10">
-          <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" />
+          {/* <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100" /> */}
           <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div className="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
               <div className="absolute inset-0">
@@ -25,10 +26,10 @@ export default function LandingPage() {
                   src={digimart}
                   alt="People working on laptops"
                 />
-                <div className="absolute inset-0    mix-blend-multiply" />
+                {/* <div className="absolute inset-0    mix-blend-multiply" /> */}
               </div>
               <div className="relative px-4 py-16 sm:px-6 sm:py-24  lg:py-32 lg:px-8 ">
-                <h1 className="text-center text-4xl  font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
+                <h1 className="text-center text-9xl  font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
                   <span className="block text-white border-white ">Be on top of the</span>
                   <span className="block text-gray-400">Digital Market </span>
                 </h1>
@@ -39,7 +40,7 @@ export default function LandingPage() {
                   <div className="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid  sm:gap-5">
                     <a
                       href="#"
-                      className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-700 hover:bg-indigo-50 hover:text-indigo-700 sm:px-8"
+                      className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-indigo-50 hover:bg-indigo-700 hover:text-white sm:px-8"
                     >
                       Email us 
                     </a>
