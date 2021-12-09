@@ -7,7 +7,7 @@ export default function HeaderSection(props) {
             <div className="nav relative bg-indigo-600 text-white">
               <div className="flex justify-between items-center max-w-auto mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-10 lg:px-8">
                 <div className="flex justify-start lg:flex-1">
-                <a href="#"> 
+                <a href="/"> 
                     <img
                     className="h-8 w-auto sm:h-10"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-300.svg"
